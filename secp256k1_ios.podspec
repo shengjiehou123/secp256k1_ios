@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = "secp256k1_ios"
+s.name             = "secp256k1_ios_new"
 s.version          = "0.1.3"
 s.summary          = "Reference sepc256k1 implementation as pod"
 
@@ -10,7 +10,7 @@ DESC
 s.homepage         = "https://github.com/shamatar/secp256k1_ios"
 s.license          = 'MIT'
 s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
-s.source           = { :git => 'https://github.com/shamatar/secp256k1_ios.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/shamatar'
 
 s.module_name      = 'secp256k1_ios'
