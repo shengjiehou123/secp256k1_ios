@@ -10,7 +10,7 @@ DESC
 s.homepage         = "https://github.com/shengjiehou123/secp256k1_ios"
 s.license          = 'MIT'
 s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
-s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git'}
 s.social_media_url = 'https://twitter.com/shamatar'
 
 s.module_name      = 'secp256k1_ios'
