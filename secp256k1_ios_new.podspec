@@ -13,13 +13,13 @@ s.author           = { "Jack" => "945947485@qq.com" }
 s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :tag => s.version.to_s}
 s.social_media_url = 'https://twitter.com/Jack'
 
-s.module_name      = 'secp256k1_ios'
+s.module_name      = 'secp256k1_ios_new'
 s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.10"
 s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}',
 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1 -pedantic -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wno-shorten-64-to-32 -Wno-conditional-uninitialized -Wno-unused-function -Wno-long-long -Wno-overlength-strings -O3',
-    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios"'
+    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios_new/secp256k1_ios"'
 }
 s.prepare_command = <<-CMD
                         sed -i '' -e 's:include/::g' ./**/**/*.h
