@@ -7,11 +7,11 @@ s.description      = <<-DESC
 Bitcoin secp256k1 library portable pod. Swift binding are provided in web3swift pod.
 DESC
 
-s.homepage         = "https://github.com/shamatar/secp256k1_ios"
+s.homepage         = "https://github.com/shengjiehou123/secp256k1_ios"
 s.license          = 'MIT'
 s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
-s.source           = { :git => 'https://github.com/shamatar/secp256k1_ios.git', :tag => s.version.to_s }
-s.social_media_url = 'https://twitter.com/shamatar'
+s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/Jack'
 
 s.module_name      = 'secp256k1_ios_new'
 s.ios.deployment_target = "9.0"
