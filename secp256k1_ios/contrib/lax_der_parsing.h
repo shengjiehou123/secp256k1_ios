@@ -51,7 +51,7 @@
 #ifndef SECP256K1_CONTRIB_LAX_DER_PARSING_H
 #define SECP256K1_CONTRIB_LAX_DER_PARSING_H
 
-#include <secp256k1.h>
+#include <secp256k1_1.h>
 
 #ifdef __cplusplus
 extern "C" {

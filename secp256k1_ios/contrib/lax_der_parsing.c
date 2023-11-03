@@ -5,7 +5,7 @@
  **********************************************************************/
 
 #include <string.h>
-#include <secp256k1.h>
+#include <secp256k1_1.h>
 
 #include "lax_der_parsing.h"
 
