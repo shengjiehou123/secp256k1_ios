@@ -8,9 +8,9 @@ Bitcoin secp256k1 library portable pod. Swift binding are provided in web3swift 
 DESC
 
 s.homepage         = "https://github.com/shengjiehou123/secp256k1_ios"
-s.license          = 'MIT'
+s.license= { :type => "MIT", :file => "LICENSE" } 
 s.author           = { "Alex Vlasov" => "94547485@qq.com" }
-s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :commit => "ab45b2cc23af6c29968d780d1038bd38a337b135"}
 s.social_media_url = 'https://twitter.com/Jack'
 
 s.module_name      = 'secp256k1_ios_new'
