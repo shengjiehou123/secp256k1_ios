@@ -1,25 +1,25 @@
 Pod::Spec.new do |s|
-s.name             = "secp256k1_ios_new"
-s.version          = "1.1.0"
+s.name             = "secp256k1_ios"
+s.version          = "0.1.3"
 s.summary          = "Reference sepc256k1 implementation as pod"
 
 s.description      = <<-DESC
 Bitcoin secp256k1 library portable pod. Swift binding are provided in web3swift pod.
 DESC
 
-s.homepage         = "https://github.com/shengjiehou123/secp256k1_ios"
+s.homepage         = "https://github.com/shamatar/secp256k1_ios"
 s.license          = 'MIT'
-s.author           = { "Jack" => "945947485@qq.com" }
-s.source           = { :git => 'https://github.com/shengjiehou123/secp256k1_ios.git', :tag => s.version.to_s}
-s.social_media_url = 'https://twitter.com/Jack'
+s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
+s.source           = { :git => 'https://github.com/shamatar/secp256k1_ios.git', :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/shamatar'
 
-s.module_name      = 'secp256k1_ios_new'
+s.module_name      = 'secp256k1_ios'
 s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.10"
 s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}',
 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1 -pedantic -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wno-shorten-64-to-32 -Wno-conditional-uninitialized -Wno-unused-function -Wno-long-long -Wno-overlength-strings -O3',
-    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios_new/secp256k1_ios"'
+    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios"'
 }
 s.prepare_command = <<-CMD
                         sed -i '' -e 's:include/::g' ./**/**/*.h
